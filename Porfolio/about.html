@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Adweta Sigdel</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+      <img class="logo" src="assets/logo.png" alt="AS Logo">
+        <div>
+          <h1>Adweta Sigdel</h1>
+          <p>Computing Student • Web + Data + Design</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-title">
+      <h3>About Me</h3>
+      <p>Background, interests, and skills</p>
+    </div>
+
+    <div class="grid">
+      <div class="card tile col-8">
+        <h4>👋 Hello!</h4>
+        <p>
+          I am a BSc (Hons) Computing student in Kathmandu with a passion for technology and problem-solving.
+          I enjoy learning by building projects, collaborating with others, and improving step-by-step.
+        </p>
+        <div class="meta">
+          <span>Team Projects</span>
+          <span>Self Learning</span>
+          <span>Tech + Creativity</span>
+        </div>
+
+        <hr class="sep" />
+
+        <h4>✨ Interests</h4>
+        <p>
+          I am especially interested in Artificial Intelligence, Machine Learning, and Data Analytics.
+          I also like UI/UX design because it blends logic with creativity.
+        </p>
+        <div class="meta">
+          <span>AI</span><span>ML</span><span>Data Analytics</span><span>UI/UX</span>
+        </div>
+      </div>
+
+      <div class="card tile col-4">
+        <h4>🧩 Core Skills</h4>
+        <div class="list">
+          <div class="item">
+            <b>Web Development</b><br/>
+            <span>HTML • CSS • JavaScript (Beginner)</span>
+          </div>
+          <div class="item">
+            <b>Programming</b><br/>
+            <span>Python • Java (Beginner)</span>
+          </div>
+          <div class="item">
+            <b>Design</b><br/>
+            <span>Figma (Beginner)</span>
+          </div>
+          <div class="item">
+            <b>Database</b><br/>
+            <span>SQL (Beginner)</span>
+          </div>
+          <div class="item">
+            <b>Marketing Tools</b><br/>
+            <span>Google Analytics • Content Strategy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card tile col-12">
+        <h4>🎯 What I’m improving next</h4>
+        <p>
+          Building stronger JavaScript skills, creating more real projects, and exploring ML workflows in Python.
+          My goal is to become confident in both front-end development and data-focused problem solving.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Adweta Sigdel
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

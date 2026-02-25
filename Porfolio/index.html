@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adweta Sigdel | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="assets/logo.png" alt="AS Logo">
+        <div>
+          <h1>Adweta Sigdel</h1>
+          <p>Computing Student • Web + Data + Design</p>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <h2>Building clean web experiences and learning data-driven tech.</h2>
+          <p>
+            Motivated BSc (Hons) Computing student with hands-on experience in IT support,
+            web projects, and a growing interest in AI/ML and data analytics.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="portfolio.html">View Projects</a>
+            <a class="btn" href="resume.html">View Resume</a>
+            <a class="btn ghost" href="contact.html">Contact Me</a>
+          </div>
+
+          <div class="meta" style="margin-top:16px">
+            <span>📍 Kathmandu, Nepal</span>
+            <span>🎓 The British College</span>
+            <span>🧠 Interests: AI • ML • Data</span>
+          </div>
+        </div>
+
+        <div class="card profile-card">
+          <div class="profile-inner">
+            <div class="avatar-circle">
+              <img src="assets/Profile.jpg" alt="Adweta profile photo" />
+            </div>
+            <div class="badges">
+              <div class="badge"><strong>HTML</strong> + CSS + JS</div>
+              <div class="badge"><strong>Python</strong> (Beginner)</div>
+              <div class="badge"><strong>Java</strong> (OOP)</div>
+              <div class="badge"><strong>Figma</strong> (UI/UX)</div>
+              <div class="badge"><strong>SQL</strong> (Basics)</div>
+            </div>
+            <p class="small">
+              Currently focused on improving front-end skills, building real projects,
+              and exploring ML basics through practice.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h3>Quick Highlights</h3>
+        <p>What I’m working on and what I can do</p>
+      </div>
+
+      <div class="grid">
+        <div class="card tile col-4">
+          <h4>👩‍💻 Web Development</h4>
+          <p>Responsive layouts, clean UI, and structured pages using HTML/CSS/JS.</p>
+          <div class="meta"><span>Beginner → Improving</span></div>
+        </div>
+
+        <div class="card tile col-4">
+          <h4>🎨 UI/UX Design</h4>
+          <p>Prototyping screens in Figma with user-friendly structure and flow.</p>
+          <div class="meta"><span>Figma</span><span>Wireframes</span></div>
+        </div>
+
+        <div class="card tile col-4">
+          <h4>📊 Data & Tech Interest</h4>
+          <p>Curious about machine learning, analytics, and real-world problem solving.</p>
+          <div class="meta"><span>AI/ML</span><span>Data Analytics</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Adweta Sigdel • Built with a dark tech theme
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Adweta Sigdel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="assets/logo.png" alt="AS Logo">
+        <div>
+          <h1>Adweta Sigdel</h1>
+          <p>Let’s connect</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-title">
+      <h3>Contact Me</h3>
+      <p>Send a message (opens your email app)</p>
+    </div>
+
+    <div class="grid">
+      <div class="card form col-6">
+        <form onsubmit="sendMail(event)">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="your@email.com" required />
+          </div>
+
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" placeholder="Project / Internship / Collaboration" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="card tile col-6">
+        <h4>Direct Contact</h4>
+        <p>You can also reach out through the details below:</p>
+        <div class="list" style="margin-top:12px">
+
+  <div class="item contact-item">
+    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+    <div>
+      <b>Email</b><br/>
+      <a class="link" href="mailto:adwetasigdel2004@gmail.com">
+        adwetasigdel2004@gmail.com
+      </a>
+    </div>
+  </div>
+
+  <div class="item contact-item">
+    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+    <div>
+      <b>Phone</b><br/>
+      <a class="link" href="tel:+9779846696339">
+        +977 9846696339
+      </a>
+    </div>
+  </div>
+
+  <div class="item contact-item">
+    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+    <div>
+      <b>LinkedIn</b><br/>
+      <a class="link" href="https://linkedin.com/in/adweta-sigdel-3527aa27b" target="_blank" rel="noopener">
+        linkedin.com/in/adweta-sigdel-3527aa27b
+      </a>
+    </div>
+  </div>
+
+</div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Adweta Sigdel
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

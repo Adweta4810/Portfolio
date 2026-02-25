@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Adweta Sigdel</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="assets/logo.png" alt="AS Logo">
+        <div>
+          <h1>Adweta Sigdel</h1>
+          <p>Projects • GitHub • Learning</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-title">
+      <h3>Portfolio</h3>
+      <p>Project cards with GitHub links</p>
+    </div>
+
+    <div class="grid">
+
+      <!-- Replace # with your real GitHub repo links -->
+      <div class="card project-card col-6">
+        <div class="top">
+          <div>
+            <h4> Mobile App Design (Figma)</h4>
+            <p class="small">Recipe discovery app prototype with filters and user-friendly flow.</p>
+          </div>
+          <span class="badge">UI/UX</span>
+        </div>
+        <p>
+          Designed screens for ingredient-based search, cuisine filters, and dietary preferences with a clean layout.
+        </p>
+        <div class="meta">
+          <span>Figma</span><span>Prototype</span><span>User-centered</span>
+        </div>
+        <div class="links">
+          <a class="btn ghost" href="https://www.figma.com/design/MHf0IvOfkw4wbMpSz8KKgD/Cook-mentor-app?node-id=0-1&t=HFZMtdJie0oO7UnO-1" target="_blank" rel="noopener">Live / Figma</a>
+        </div>
+      </div>
+
+      <div class="card project-card col-6">
+        <div class="top">
+          <div>
+            <h4> OOP Turtle Project (Java)</h4>
+            <p class="small">Interactive Turtle Graphics app with OOP concepts.</p>
+          </div>
+          <span class="badge">Java</span>
+        </div>
+        <p>
+          Built shape creation and manipulation features, including save/reload of graphic states.
+        </p>
+        <div class="meta">
+          <span>Java</span><span>OOP</span><span>Graphics</span>
+        </div>
+        <div class="links">
+          <a class="btn" href="https://github.com/Adweta4810/OOP-Turtle-Graphics.git" target="_blank" rel="noopener">GitHub Repo</a>
+        </div>
+      </div>
+
+      <div class="card project-card col-6">
+        <div class="top">
+          <div>
+            <h4> Portfolio Website (HTML/CSS)</h4>
+            <p class="small">Responsive personal website showcasing academic work.</p>
+          </div>
+          <span class="badge">Front-end</span>
+        </div>
+        <p>
+          Built responsive sections optimized for desktop and mobile with a clean and simple layout.
+        </p>
+        <div class="meta">
+          <span>HTML</span><span>CSS</span><span>Responsive</span>
+        </div>
+        <div class="links">
+          <a class="btn" href="https://github.com/Adweta4810/Portfolio.git" target="_blank" rel="noopener">GitHub Repo</a>
+        </div>
+      </div>
+
+      <div class="card project-card col-6">
+        <div class="top">
+          <div>
+            <h4>🛒 E-Commerce Website (Team Project)</h4>
+            <p class="small">Front-end + basic backend support with SQL, built in a team.</p>
+          </div>
+          <span class="badge">Team</span>
+        </div>
+       <p>
+    A BOOSE language interpreter app that executes commands to draw shapes and run scripts.
+    Includes an <code>about</code> command that shows what the project is about, and displays BOOSE.DLL/version info in the output/debug window.
+  </p>
+
+  <div class="meta">
+    <span>C#</span><span>.NET</span><span>Interpreter</span><span>ASE</span>
+  </div>
+        <div class="links">
+          <a class="btn" href="https://github.com/Adweta4810/website-host-adweta-sigdel.git" target="_blank" rel="noopener">GitHub Repo</a>
+        </div>
+      </div>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Adweta Sigdel
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
